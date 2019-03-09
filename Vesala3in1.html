@@ -311,8 +311,8 @@
         broj_pogodjenih = false;
         nepogodjena.style.visibility = "hidden";
         for(var i = 0; i < slova.length; i++){
-            slova[i].removeAttribute("class");  //ovo naravno radi ali je neugledno. Na koji drugi način da izvršim reset ako je onclick podfunkcija funkcije "igra" (osim da napravim novu funkciju pa da je ovde pozovem, ali to nema smisla samo za jednu stavku) ? Ako mislite da ne treba da radim preko set atributa vec da idem na js style recite.
-        }
+            slova[i].removeAttribute("class");
+	}       //ovo radi ali je neugledno. Na koji drugi način da izvršim reset ako je onclick podfunkcija funkcije "igra" ? Ako mislite da ne treba da radim preko set atributa vec da idem na js style recite.
         igra();
     }
     document.getElementById("reset").onclick = reset;
