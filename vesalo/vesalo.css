@@ -1,0 +1,205 @@
+html, body{ 
+    width: 100%; 
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    background: rgb(153, 209, 228);
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+body *{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+a{ 
+    text-decoration: none;
+}
+ol, ul{ 
+    list-style-type: none; 
+    }
+.naslov{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.podnaslov{
+    margin: 20px auto;
+}
+#slova{
+    width: 492px;
+    height: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+#slova div{ 
+    display: inline-block; 
+    width: 55px; 
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.3em;
+    background: grey;
+    color: lightblue;
+    cursor: pointer;
+    margin: 3px 3px;
+    border-radius: 5px;
+}
+#slova div:hover{
+    color: white;
+    background: lightblue;
+}
+.ugasen{
+    opacity: 0.5;
+}
+.polja{
+    width: 60%;
+    height: 20px;
+    font-size: 25px;
+    margin: 20px auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.polja span{
+    padding-right: 10px;
+    }
+#nepogodjena{
+    background: grey;
+    color: lightblue;
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 4px;
+    padding: 4px 4px;
+    right: 100px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 5px;
+}
+.pokusaji{
+    width: 50%;
+    height: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+#vesala{
+    border: 2px dashed black;
+    position: relative;
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+}
+#vesala div{
+    display: none;
+}
+#vesala div:nth-child(1){
+    border: 1px solid green;
+    position:absolute;
+    width: 110px;
+    height: 1px;
+    bottom: 10px;
+    left: 30px;
+    
+}
+#vesala div:nth-child(2){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 155px;
+    bottom: 10px;
+    left: 40px;
+}
+#vesala div:nth-child(3){
+    border: 1px solid green;
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    bottom: 155px;
+    left: 30px;
+}
+#vesala div:nth-child(4){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    bottom: 140px;
+    left: 100px;
+}
+#vesala div:nth-child(5){
+    border: 2px solid green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 120px;
+    left: 91px;
+    border-radius: 50%;
+}
+#vesala div:nth-child(6){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 34px;
+    bottom: 87px;
+    left: 100px;
+}
+#vesala div:nth-child(7){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: 95px;
+    left: 84px;
+    transform: rotate(80deg);
+}
+#vesala div:nth-child(8){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    bottom: 95px;
+    left: 116px;
+    transform: rotate(-80deg);
+}
+#vesala div:nth-child(9){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 35px;
+    bottom: 57px;
+    left: 88px;
+    transform: rotate(45deg);
+}
+#vesala div:nth-child(10){
+    border: 1px solid green;
+    position: absolute;
+    width: 1px;
+    height: 35px;
+    bottom: 57px;
+    left: 112px;
+    transform: rotate(-45deg);
+}
+
+#reset{
+    width: 150px;
+    height: 35px;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 6px;
+    color: lightblue;
+    background: grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#reset:hover{
+    color: white;
+}
+@media screen and (max-width: 500px){
+    #slova{
+    width: 382px;
+    height: 130px;
+    }
+    #slova div{
+    width: 30px; 
+    line-height: 20px;
+    }
+}
