@@ -4,4 +4,3 @@
 * HTML je koncipiran tako da se igra odvija u centralnom delu browsera, i u dobrom delu je responsivna za manje i vece ekrane.
 * CSS Dominantne su svetlo plava, siva i bela boja, što backgrounda, što drugih elemenata igre. Vešala su zelene boje da bi iskočila u prvi plan. Za efekte je korišćen hover i transition(slova, nepogođena reč).
 * Javascript je korišćen za prikaz slova, polja, "animacije vešala", pogođene/nepogođene reči, broja preostalih pokušaja, reset/start igre. Naravno, u nekim situacijama javascript je tesno povezan sa html/css-om, pravi primer su sama vešala.
-Javascript se sastoji od 6 funkcija i jedne samopozivajuće funkcije za klik na slova koja se nalazi unutar, da kažemo, glavne funkcije "igra". Ostale funkcije su rešene tako da se aktiviraju na poziv za elemente slova, polja, promašene reči, vešala i reseta igre.
