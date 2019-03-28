@@ -195,11 +195,29 @@ ol, ul{
 }
 @media screen and (max-width: 500px){
     #slova{
-    width: 382px;
-    height: 130px;
+    width: 375px;
+    height: 90px;
     }
     #slova div{
     width: 30px; 
     line-height: 20px;
+    }
+    .naslov{
+    font-size: 10px;
+    margin: 5px;
+    margin-bottom: 5px;
+    }
+    .podnaslov{
+    font-size:15px;
+    margin: 10px auto;
+    }
+    .polja{
+    font-size: 20px;
+    margin: 5px auto;
+    }
+    #nepogodjena{
+    margin: 0 auto;
+    left:5px;
+    bottom:5px;
     }
 }
